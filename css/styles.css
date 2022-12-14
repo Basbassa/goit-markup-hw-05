@@ -56,7 +56,6 @@ a {
   background-image: url("../images/banners/main-banner.jpg"),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
   background-size: 1600px;
-  /* background-repeat: no-repeat; */
   background-position: center;
   background-color: var(--color-h1);
   color: var(--color-white);
@@ -105,7 +104,6 @@ a {
 }
 
 .button-main {
-  display: inline-block;
   background-color: var(--color-mainblue);
   color: var(--color-white);
   font-weight: 700;
