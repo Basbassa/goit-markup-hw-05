@@ -148,6 +148,7 @@ a {
 
 .schedule-li {
   position: relative;
+  overflow: hidden;
 }
 
 .overlay-figure {
