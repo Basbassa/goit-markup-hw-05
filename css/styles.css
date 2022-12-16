@@ -320,14 +320,13 @@ a {
   color: var(--color-mainblue);
 }
 
-
 .active-link {
-position: relative;
-color: var(--color-mainblue);
+  position: relative;
+  color: var(--color-mainblue);
 }
 
 .active-link::after {
-  content: '';
+  content: "";
   position: absolute;
   position: absolute;
   bottom: 0;
@@ -438,13 +437,12 @@ color: var(--color-mainblue);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0,3em;
+  letter-spacing: 0, 3em;
   text-align: center;
   padding: 27px 90px;
   color: var(--color-white);
   z-index: 1;
   margin-bottom: 3px;
-
 }
 
 .social-ull-team {
