@@ -328,6 +328,7 @@ a {
   line-height: 2;
   letter-spacing: 0, 6em;
   color: var(--color-button-portf);
+
 }
 
 .description-normal {
@@ -359,7 +360,6 @@ a {
   z-index: 3;
   position: relative;
   background-color: var(--color-white);
-  max-width: 100%;
 }
 
 .header-background-color {
@@ -514,5 +514,45 @@ a {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transform: translateX(-50%) translateY(-50%) scale(0) rotate(0deg) skew(40deg, 40deg);
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  min-height: 581px;
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1);
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.4);
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--brand-color-white);
+  border-radius: 50%;
+  cursor: pointer;
 }
