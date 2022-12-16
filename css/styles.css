@@ -320,6 +320,25 @@ a {
   color: var(--color-mainblue);
 }
 
+
+.active-link {
+position: relative;
+color: var(--color-mainblue);
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-mainblue);
+  border-radius: 2px;
+  margin-bottom: -7.5px;
+}
+
 .header-mail-phone {
   color: var(--color-header-mail-phone);
 }
