@@ -46,10 +46,6 @@ a {
   --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
 }
 
-.nav-border-bottom {
-  border-bottom: 2px solid var(--color-nav-border);
-  padding: 32px;
-}
 
 .box-h1 {
   max-width: 1600px;
@@ -387,6 +383,8 @@ a {
 
 .header-background-color {
   background-color: var(--color-white);
+  border-bottom: 2px solid var(--color-nav-border);
+  padding: 32px;
 }
 
 .main-background-color {
