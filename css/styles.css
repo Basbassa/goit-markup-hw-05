@@ -323,10 +323,10 @@ a {
 .active-link::after {
   content: "";
   position: absolute;
-  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 58px;
   height: 4px;
   background-color: var(--color-mainblue);
   border-radius: 2px;
