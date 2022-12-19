@@ -354,11 +354,12 @@ a {
   color: var(--color-description-small-letters);
   padding-bottom: 2px;
   padding-left: 24px;
-  margin-bottom: -1px;
+  padding-bottom: 20px;
 }
 
 .figure-border {
   border: 1px solid var(--color-border-figacap);
+  overflow: hidden;
 }
 
 .figcaption-main {
