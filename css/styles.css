@@ -183,7 +183,7 @@ a {
   position: relative;
 }
 
-.box-figure:hover .overlay-figure {
+.schedule-li:hover .box-figure .overlay-figure {
   transform: translatey(0);
 }
 
